@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+
+.header{
+  background-color: orange;
+  padding: 25px;
+}
+.navbutton{
+  margin: 25px;
+  font-weight: 500;
+}
+.navButtonsArrangement{
+  margin-left: 780px;
+}
+
+.searchBtn{
+  position: absolute;
+  left: 350px;
+  top: 91px;
+  background-color: white;
+  
+}
+
+.resetBtn{
+  position: absolute;
+  left: 450px;
+  top: 91px;
+  background-color: white;
+}
+.navSearchBtn{
+  background-color: black;
+  padding: 15px;
+}
+
+.body{
+  height: 100% ;
+  width: 100%;
+  background-color: black;
+  padding: 21.7%;
+}
+
+
+.hometext{
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.movieImg:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+.abc {
+  color: white;
+  font-family: "Montserrat Medium";
+  margin-left: 10px;
+  font-size: 30px;
+  max-width: 2100px;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 100, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+  animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Contact page style */
+
+.contactImg{
+  width: 100%;
+ height: 450px;
+}
+.contactText{
+  position:absolute;
+  top: 250px;
+  right: 1000px;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.contactSubText{
+  position:absolute;
+  top: 320px;
+  right: 850px;
+  color: white;
+  font-weight: 500;
+}
+
+.contactBottomBgColor{
+  width: 100%;
+  position: absolute;
+  right: 0px;
+  top: 491px;
+  height: 253px;
+  background-color: black;
+}
+
+.contactCard{
+  width: 300px;
+  position: absolute;
+  right: 942px;
+  bottom: 79px;
+  padding-bottom: 20px;
+}
+
+.contactCard2{
+  width: 300px;
+    position: absolute;
+    right: 316px;
+    bottom: 83px;
+}
+.contactSubBtn{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+/* About tab styling */
+
+
+.aboutHeight{
+  height: 687px;
+}
+.aboutCard{
+  border-radius: 5px;
+  padding: 30px;
+  background-color: white;
+  width: 800px;
+  position: absolute;
+  top: 155px;
+  left: 485px;
+}
+
+.charectorCard{
+  margin-top: 10px;
+  width: 90%;
+  padding: 10px;
+border-radius: 10px;
+box-shadow: black 10px;
+background-color: black;
+}
+
+.charectorP{
+  color: white;
+  float :right
+
+}
